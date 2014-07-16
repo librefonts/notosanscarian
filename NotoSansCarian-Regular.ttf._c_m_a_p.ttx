@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <cmap>
+    <tableVersion version="0"/>
+    <cmap_format_4 platformID="3" platEncID="1" language="0">
+      <map code="0x0" name="uniFEFF"/><!-- &lt;control> -->
+      <map code="0xd" name="uni000D"/><!-- &lt;control> -->
+      <map code="0x20" name="uni00A0"/><!-- SPACE -->
+      <map code="0xa0" name="uni00A0"/><!-- NO-BREAK SPACE -->
+      <map code="0xfeff" name="uniFEFF"/><!-- ZERO WIDTH NO-BREAK SPACE -->
+    </cmap_format_4>
+    <cmap_format_12 platformID="3" platEncID="10" format="12" reserved="0" length="88" language="0" nGroups="6">
+      <map code="0x0" name="uniFEFF"/><!-- &lt;control> -->
+      <map code="0xd" name="uni000D"/><!-- &lt;control> -->
+      <map code="0x20" name="uni00A0"/><!-- SPACE -->
+      <map code="0xa0" name="uni00A0"/><!-- NO-BREAK SPACE -->
+      <map code="0xfeff" name="uniFEFF"/><!-- ZERO WIDTH NO-BREAK SPACE -->
+      <map code="0x102a0" name="glyph00004"/><!-- CARIAN LETTER A -->
+      <map code="0x102a1" name="glyph00005"/><!-- CARIAN LETTER P2 -->
+      <map code="0x102a2" name="glyph00006"/><!-- CARIAN LETTER D -->
+      <map code="0x102a3" name="glyph00007"/><!-- CARIAN LETTER L -->
+      <map code="0x102a4" name="glyph00008"/><!-- CARIAN LETTER UUU -->
+      <map code="0x102a5" name="glyph00009"/><!-- CARIAN LETTER R -->
+      <map code="0x102a6" name="glyph00010"/><!-- CARIAN LETTER LD -->
+      <map code="0x102a7" name="glyph00011"/><!-- CARIAN LETTER A2 -->
+      <map code="0x102a8" name="glyph00012"/><!-- CARIAN LETTER Q -->
+      <map code="0x102a9" name="glyph00013"/><!-- CARIAN LETTER B -->
+      <map code="0x102aa" name="glyph00014"/><!-- CARIAN LETTER M -->
+      <map code="0x102ab" name="glyph00015"/><!-- CARIAN LETTER O -->
+      <map code="0x102ac" name="glyph00016"/><!-- CARIAN LETTER D2 -->
+      <map code="0x102ad" name="glyph00017"/><!-- CARIAN LETTER T -->
+      <map code="0x102ae" name="glyph00018"/><!-- CARIAN LETTER SH -->
+      <map code="0x102af" name="glyph00019"/><!-- CARIAN LETTER SH2 -->
+      <map code="0x102b0" name="glyph00020"/><!-- CARIAN LETTER S -->
+      <map code="0x102b1" name="glyph00021"/><!-- CARIAN LETTER C-18 -->
+      <map code="0x102b2" name="glyph00022"/><!-- CARIAN LETTER U -->
+      <map code="0x102b3" name="glyph00023"/><!-- CARIAN LETTER NN -->
+      <map code="0x102b4" name="glyph00024"/><!-- CARIAN LETTER X -->
+      <map code="0x102b5" name="glyph00025"/><!-- CARIAN LETTER N -->
+      <map code="0x102b6" name="glyph00026"/><!-- CARIAN LETTER TT2 -->
+      <map code="0x102b7" name="glyph00027"/><!-- CARIAN LETTER P -->
+      <map code="0x102b8" name="glyph00028"/><!-- CARIAN LETTER SS -->
+      <map code="0x102b9" name="glyph00029"/><!-- CARIAN LETTER I -->
+      <map code="0x102ba" name="glyph00030"/><!-- CARIAN LETTER E -->
+      <map code="0x102bb" name="glyph00031"/><!-- CARIAN LETTER UUUU -->
+      <map code="0x102bc" name="glyph00032"/><!-- CARIAN LETTER K -->
+      <map code="0x102bd" name="glyph00033"/><!-- CARIAN LETTER K2 -->
+      <map code="0x102be" name="glyph00034"/><!-- CARIAN LETTER ND -->
+      <map code="0x102bf" name="glyph00035"/><!-- CARIAN LETTER UU -->
+      <map code="0x102c0" name="glyph00036"/><!-- CARIAN LETTER G -->
+      <map code="0x102c1" name="glyph00037"/><!-- CARIAN LETTER G2 -->
+      <map code="0x102c2" name="glyph00038"/><!-- CARIAN LETTER ST -->
+      <map code="0x102c3" name="glyph00039"/><!-- CARIAN LETTER ST2 -->
+      <map code="0x102c4" name="glyph00040"/><!-- CARIAN LETTER NG -->
+      <map code="0x102c5" name="glyph00041"/><!-- CARIAN LETTER II -->
+      <map code="0x102c6" name="glyph00042"/><!-- CARIAN LETTER C-39 -->
+      <map code="0x102c7" name="glyph00043"/><!-- CARIAN LETTER TT -->
+      <map code="0x102c8" name="glyph00044"/><!-- CARIAN LETTER UUU2 -->
+      <map code="0x102c9" name="glyph00045"/><!-- CARIAN LETTER RR -->
+      <map code="0x102ca" name="glyph00046"/><!-- CARIAN LETTER MB -->
+      <map code="0x102cb" name="glyph00047"/><!-- CARIAN LETTER MB2 -->
+      <map code="0x102cc" name="glyph00048"/><!-- CARIAN LETTER MB3 -->
+      <map code="0x102cd" name="glyph00049"/><!-- CARIAN LETTER MB4 -->
+      <map code="0x102ce" name="glyph00050"/><!-- CARIAN LETTER LD2 -->
+      <map code="0x102cf" name="glyph00051"/><!-- CARIAN LETTER E2 -->
+      <map code="0x102d0" name="glyph00052"/><!-- CARIAN LETTER UUU3 -->
+    </cmap_format_12>
+  </cmap>
+
+</ttFont>
