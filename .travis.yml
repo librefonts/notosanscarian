@@ -7,15 +7,15 @@ before_install:
 install:
 - pip install git+https://github.com/behdad/fontTools.git
 - pip install git+https://github.com/googlefonts/fontbakery-cli.git
+- pip install jinja2
 script: PATH=/home/travis/virtualenv/python2.7.8/bin/:$PATH fontbakery.py .
 branches:
   only:
   - master
+after_script:
+- rm -rf builds/build/sources builds/build/build.state.yaml
+- PATH=/home/travis/virtualenv/python2.7.8/bin/:$PATH bakery-report.py builds/build
+- PATH=/home/travis/virtualenv/python2.7.8/bin/:$PATH travis-deploy.py
 env:
   global:
-  - secure: g/G3JyjA3UVkYolEDpz9PZZoPwdZHjLx+LVteZZOYRHfMhTR9zqISQOGGJU1ZyFKMVt/k27+zO1WUBH7Aip0TfVQZ8qUJK3rL0k5f+RxNUK0snqFX/bAPl9/+xtN0r3ldIVloJoKKzEr35MVk72EppAq6FfUAwSu4I+ae4/SqAQ=
-  - secure: DBD5+z97MEys5v/4EK1A6+IROGL6RqkHSsVcHle849chKhH4KgMw0+MI9MaYyLlPDLQrcem3DUZAq/+x+OHGjmr6A1r3WSOoXbYyvUisih4LOLaFX7ZYsImO65YPHDT5Vow2Iz+uc8ySZTOwiDbrXqiTJMRc/oylI0WHtGvyH7I=
-  - secure: C6K83dK9qo+5ehpvtPadEyda8agm+NdaXpxIgWgewH/nE3z+Ef4lYiNICXa3235IBn8t8+bqXrSTcjLBnH5P8blANfL4myjl/iJ2nObRWzQ+cVuf4u9cfTDhaO80G62EdsC4qAOKXZLouyRUwnoB3QX0mcIq7sCcskzXzfkSRWc=
-after_success:
-- rm -rf builds/build/sources builds/build/build.state.yaml
-- PATH=/home/travis/virtualenv/python2.7.8/bin/:$PATH travis-deploy.py
+    secure: iNs+p9xubURlp36B+RGDRd99fbvGnyjJG02gyh2x1qX//O4eEax4HkJeFJLAmyv4nNp90yLxgf80u9H4nZLuvFNs3ZeAMPkMR7j+Yg38GAQVboPmcDVeNqviA7miST5OiPCR4pgaYcvFGSeWULXAmM1D6Aep8Stu+8XE2teIQG8=
