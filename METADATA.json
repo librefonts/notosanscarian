@@ -1,0 +1,24 @@
+{
+  "name": "Noto Sans Carian",
+  "designer": "Monotype Design team",
+  "license": "",
+  "visibility": "Sandbox",
+  "category": "monospace",
+  "size": 5899,
+  "fonts": [
+    {
+      "name": "Noto Sans Carian",
+      "style": "normal",
+      "weight": 400,
+      "filename": "NotoSansCarian-Regular.ttf",
+      "postScriptName": "NotoSansCarian",
+      "fullName": "Noto Sans Carian",
+      "copyright": "Copyright 2012 Google Inc. All Rights Reserved."
+    }
+  ],
+  "subsets": [
+    "latin",
+    "menu"
+  ],
+  "dateAdded": "2014-10-06"
+}
